@@ -182,8 +182,6 @@ if st.button("🔍 Predict Injury Risk"):
         st.error(f"Error during prediction: {e}")
 st.markdown("</div>", unsafe_allow_html=True)
 
-# -----------------------------
-# Footer
-# -----------------------------
+
 model_accuracy = 0.73
 st.markdown(f"<div class='footer'>📊 <b>Model Accuracy:</b> {model_accuracy*100:.2f}%<br>Note: Accuracy from training phase.</div>", unsafe_allow_html=True)
